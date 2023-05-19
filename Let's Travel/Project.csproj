@@ -82,6 +82,12 @@
     <Compile Include="BusForm.Designer.cs">
       <DependentUpon>BusForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Create Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create Account.Designer.cs">
+      <DependentUpon>Create Account.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exception.cs" />
     <Compile Include="Admin Hotel.cs">
       <SubType>Form</SubType>
@@ -130,6 +136,24 @@
     <Compile Include="TransportPurchase.Designer.cs">
       <DependentUpon>TransportPurchase.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Dashboard.Designer.cs">
+      <DependentUpon>User Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Hotel.Designer.cs">
+      <DependentUpon>User Hotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Login.Designer.cs">
+      <DependentUpon>User Login.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add_Money.resx">
       <DependentUpon>Add_Money.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BusForm.resx">
       <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Account.resx">
+      <DependentUpon>Create Account.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin Hotel.resx">
       <DependentUpon>Admin Hotel.cs</DependentUpon>
@@ -174,6 +201,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TransportPurchase.resx">
       <DependentUpon>TransportPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Dashboard.resx">
+      <DependentUpon>User Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Hotel.resx">
+      <DependentUpon>User Hotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Login.resx">
+      <DependentUpon>User Login.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

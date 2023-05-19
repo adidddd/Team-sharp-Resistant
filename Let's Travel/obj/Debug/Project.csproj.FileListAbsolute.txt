@@ -1,0 +1,2 @@
+C:\Project\Team-sharp-Resistant\Let's Travel\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Project\Team-sharp-Resistant\Let's Travel\obj\Debug\Project.csproj.SuggestedBindingRedirects.cache
