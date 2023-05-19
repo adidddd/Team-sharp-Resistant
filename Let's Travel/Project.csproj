@@ -52,6 +52,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Money.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Money.Designer.cs">
+      <DependentUpon>Add_Money.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Dashboard.Designer.cs">
+      <DependentUpon>Admin Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Login.Designer.cs">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +81,13 @@
     </Compile>
     <Compile Include="BusForm.Designer.cs">
       <DependentUpon>BusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exception.cs" />
+    <Compile Include="Admin Hotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Hotel.Designer.cs">
+      <DependentUpon>Admin Hotel.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalTicket.cs" />
     <Compile Include="GlobalUser.cs" />
@@ -99,11 +124,29 @@
     <Compile Include="Trainform.Designer.cs">
       <DependentUpon>Trainform.cs</DependentUpon>
     </Compile>
+    <Compile Include="TransportPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransportPurchase.Designer.cs">
+      <DependentUpon>TransportPurchase.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Money.resx">
+      <DependentUpon>Add_Money.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Dashboard.resx">
+      <DependentUpon>Admin Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Login.resx">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bus.resx">
       <DependentUpon>Bus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BusForm.resx">
       <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Hotel.resx">
+      <DependentUpon>Admin Hotel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Trainform.resx">
       <DependentUpon>Trainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransportPurchase.resx">
+      <DependentUpon>TransportPurchase.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
