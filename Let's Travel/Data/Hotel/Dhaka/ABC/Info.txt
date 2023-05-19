@@ -1,0 +1,3 @@
+Hotel Name: ABC
+Address: Khilkhet
+Category: 5*

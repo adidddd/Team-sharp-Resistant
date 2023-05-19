@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Let_s_Travel
+namespace Project
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Let_s_Travel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Starting());
         }
     }
 }

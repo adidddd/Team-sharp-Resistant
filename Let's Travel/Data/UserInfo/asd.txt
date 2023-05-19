@@ -1,0 +1,11 @@
+First Name        :
+Last Name         :
+Date of Birth     :Monday, April 24, 2023
+Sex               :
+Marital Status    :System.Windows.Forms.ComboBox, Items.Count: 4
+Nationality       :
+Phone Number      :
+Email             :
+Address           :
+Country Of Birth  :
+Place Of Birth    :

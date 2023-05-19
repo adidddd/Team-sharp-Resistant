@@ -1,0 +1,10 @@
+Hotel Booking
+
+Hotel Name: ABC
+Address: Khilkhet
+Category: 5*
+
+Room Details:
+Room Type: Standard
+Price: 3000
+
