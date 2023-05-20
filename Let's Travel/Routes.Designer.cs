@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Routes));
             this.RouteIdtextBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.SeatTypecomboBox = new System.Windows.Forms.ComboBox();
@@ -47,6 +48,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BuscomboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // RouteIdtextBox
@@ -206,9 +210,10 @@
             // 
             // listBox1
             // 
+            this.listBox1.ForeColor = System.Drawing.Color.Transparent;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(139, 142);
+            this.listBox1.Location = new System.Drawing.Point(165, 113);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(829, 196);
@@ -259,11 +264,35 @@
             this.label4.TabIndex = 91;
             this.label4.Text = "Bus Id and Name:";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe Script", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label6.Location = new System.Drawing.Point(7, 99);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(117, 28);
+            this.label6.TabIndex = 94;
+            this.label6.Text = "Let\'s Travel\n";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(99, 84);
+            this.pictureBox3.TabIndex = 93;
+            this.pictureBox3.TabStop = false;
+            // 
             // Routes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1006, 554);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.BuscomboBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.RouteIdtextBox);
@@ -283,9 +312,10 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.FromcomboBox);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Routes";
             this.Text = "Routes";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,5 +342,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox BuscomboBox;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusForm));
             this.button1 = new System.Windows.Forms.Button();
             this.BusIdtextBox = new System.Windows.Forms.TextBox();
             this.CompanyNametextBox = new System.Windows.Forms.TextBox();
@@ -45,12 +46,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.PricetextBox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
-            this.button1.Location = new System.Drawing.Point(580, 237);
+            this.button1.BackColor = System.Drawing.Color.Cyan;
+            this.button1.Location = new System.Drawing.Point(820, 232);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 42);
@@ -61,7 +64,7 @@
             // 
             // BusIdtextBox
             // 
-            this.BusIdtextBox.Location = new System.Drawing.Point(682, 32);
+            this.BusIdtextBox.Location = new System.Drawing.Point(776, 43);
             this.BusIdtextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BusIdtextBox.Name = "BusIdtextBox";
             this.BusIdtextBox.Size = new System.Drawing.Size(187, 22);
@@ -69,7 +72,7 @@
             // 
             // CompanyNametextBox
             // 
-            this.CompanyNametextBox.Location = new System.Drawing.Point(281, 31);
+            this.CompanyNametextBox.Location = new System.Drawing.Point(375, 42);
             this.CompanyNametextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CompanyNametextBox.Name = "CompanyNametextBox";
             this.CompanyNametextBox.Size = new System.Drawing.Size(187, 22);
@@ -78,8 +81,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.Info;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(108, 28);
+            this.label6.Location = new System.Drawing.Point(205, 42);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(160, 25);
             this.label6.TabIndex = 38;
@@ -88,8 +92,9 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.Info;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(603, 31);
+            this.label9.Location = new System.Drawing.Point(697, 42);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(73, 25);
             this.label9.TabIndex = 62;
@@ -99,7 +104,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(139, 306);
+            this.listBox1.Location = new System.Drawing.Point(172, 347);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(829, 196);
@@ -114,7 +119,7 @@
             "Bandarban",
             "Rangamati",
             "Chattogram"});
-            this.TocomboBox.Location = new System.Drawing.Point(681, 77);
+            this.TocomboBox.Location = new System.Drawing.Point(775, 88);
             this.TocomboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TocomboBox.Name = "TocomboBox";
             this.TocomboBox.Size = new System.Drawing.Size(187, 24);
@@ -123,8 +128,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.Info;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(634, 74);
+            this.label1.Location = new System.Drawing.Point(728, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 25);
             this.label1.TabIndex = 89;
@@ -139,7 +145,7 @@
             "Bandarban",
             "Rangamati",
             "Chattogram"});
-            this.FromcomboBox.Location = new System.Drawing.Point(281, 77);
+            this.FromcomboBox.Location = new System.Drawing.Point(375, 88);
             this.FromcomboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FromcomboBox.Name = "FromcomboBox";
             this.FromcomboBox.Size = new System.Drawing.Size(187, 24);
@@ -148,8 +154,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Info;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(209, 74);
+            this.label2.Location = new System.Drawing.Point(306, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 25);
             this.label2.TabIndex = 87;
@@ -158,8 +165,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Info;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(594, 125);
+            this.label3.Location = new System.Drawing.Point(688, 136);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 25);
             this.label3.TabIndex = 93;
@@ -168,8 +176,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.Info;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(157, 125);
+            this.label4.Location = new System.Drawing.Point(254, 139);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 25);
             this.label4.TabIndex = 91;
@@ -179,7 +188,7 @@
             // deptTimeBox
             // 
             this.deptTimeBox.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.deptTimeBox.Location = new System.Drawing.Point(281, 128);
+            this.deptTimeBox.Location = new System.Drawing.Point(375, 139);
             this.deptTimeBox.Name = "deptTimeBox";
             this.deptTimeBox.Size = new System.Drawing.Size(200, 22);
             this.deptTimeBox.TabIndex = 95;
@@ -187,7 +196,7 @@
             // arrivalTimeBox
             // 
             this.arrivalTimeBox.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.arrivalTimeBox.Location = new System.Drawing.Point(694, 128);
+            this.arrivalTimeBox.Location = new System.Drawing.Point(788, 139);
             this.arrivalTimeBox.Name = "arrivalTimeBox";
             this.arrivalTimeBox.Size = new System.Drawing.Size(200, 22);
             this.arrivalTimeBox.TabIndex = 96;
@@ -195,8 +204,8 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleGreen;
-            this.button2.Location = new System.Drawing.Point(410, 237);
+            this.button2.BackColor = System.Drawing.Color.Cyan;
+            this.button2.Location = new System.Drawing.Point(391, 194);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 42);
@@ -208,8 +217,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Info;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(602, 182);
+            this.label5.Location = new System.Drawing.Point(696, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 25);
             this.label5.TabIndex = 99;
@@ -217,17 +227,28 @@
             // 
             // PricetextBox
             // 
-            this.PricetextBox.Location = new System.Drawing.Point(681, 183);
+            this.PricetextBox.Location = new System.Drawing.Point(775, 194);
             this.PricetextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PricetextBox.Name = "PricetextBox";
             this.PricetextBox.Size = new System.Drawing.Size(187, 22);
             this.PricetextBox.TabIndex = 98;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(2, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 41);
+            this.pictureBox1.TabIndex = 100;
+            this.pictureBox1.TabStop = false;
+            // 
             // BusForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1000, 554);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.PricetextBox);
             this.Controls.Add(this.button2);
@@ -249,6 +270,7 @@
             this.Name = "BusForm";
             this.Text = "BusForm";
             this.Load += new System.EventHandler(this.BusForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +294,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox PricetextBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

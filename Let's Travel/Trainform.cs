@@ -78,5 +78,10 @@ namespace Project
 
             Directory.CreateDirectory(Path.Combine(buslist, folderName));
         }
+
+        private void Trainform_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
