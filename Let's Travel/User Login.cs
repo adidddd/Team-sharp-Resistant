@@ -79,5 +79,10 @@ namespace Project
             this.Hide();
             new Create_Account().Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
